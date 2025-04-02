@@ -1,11 +1,11 @@
 {
   "name": "landing",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000L\u0000a\u0000n\u0000d\u0000i\u0000n\u0000g\u0000V\u0000o\u0000x\u0000c\u0000\r\u0000 \u0000",
+  "description": "Landing page for Voxc",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend_Land && cd frontend &&  npm install --prefix frontend && npx vite build",
-    "start": "npm run start --prefix backend_Land "
+    "build": "npm install --prefix backend_Land && npm install --prefix frontend && npx vite build --config frontend/vite.config.js",
+    "start": "npm start --prefix backend_Land"
   },
   "keywords": [],
   "author": "",
