@@ -4,7 +4,7 @@
   "description": "Landing page for Voxc",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend_Land && npm install --prefix frontend && cd frontend && npm run build",
+    "build": "npm install --prefix backend_Land && cd frontend && npm run build",
     "start": "npm start --prefix backend_Land"
   },
   "keywords": [],
