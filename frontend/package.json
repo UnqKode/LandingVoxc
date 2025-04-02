@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm install && npx vite build",
+    "build": "npm install vite --save-dev && npx vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-  },
+  },  
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
     "framer-motion": "^12.6.2",
